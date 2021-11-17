@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymleaf.org">
+<head>
+<meta charset="utf-8">
+<title>THE BOOK SPOT</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/css/portfolio.css" />
+<link rel="stylesheet" type="text/css"  href="/css/topfooter.css"  />
+<link rel="stylesheet" type="text/css"  href="/css/cart.css"  />
+<link rel="stylesheet" type="text/css"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="/fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+<script src="/js/jquery-3.2.1.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/modernizr-custom.js"></script>
+<script src="/js/custom/orderplace.js"></script>
+<script src="/js/custom/orderplaceHTML.js"></script>
+<style type="text/css">
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+
+        table {
+            border-collapse: collapse !important;
+        }
+
+        body {
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        @media screen and (max-width: 480px) {
+            .mobile-hide {
+                display: none !important;
+            }
+
+            .mobile-center {
+                text-align: center !important;
+            }
+        }
+
+        div[style*="margin: 16px 0;"] {
+            margin: 0 !important;
+        }
+        
+    </style>
+</head>
+<body>
+<div id="wrapper">
+
+<header class="float_l top">
+    <div class="social float_l">
+    	<a href="#"><img src="images/facebook_icon.png" /></a>
+    	<a href="#"><img src="images/dribble_icon.png" /></a>
+    	<a href="#"><img src="images/twitter_icon.png" /></a>
+    	<a href="#"><img src="images/mail_icon.png" /></a>
+    	<a href="#"><img src="images/vimeo_icon.png" /></a>
+     </div>
+        
+    <div class="login_register float_l">
+        <a href="#">Login/Register </a>
+        </div>
+    <div class="shoppingcart float_l">
+             <img src="images/cart_logo.png" />
+             <a href="#">Cart</a></div>
+            
+     
+ 	<nav class="float_l">
+           <div class="logo">
+           <a href="#"><img src="images/logo.png" class="float_l" /></a></div>
+        
+         <ul class="menu float_l">
+        	<li><a href="#">EXAMS</a></li>
+            <li><a href="#">ACADEMICS</a></li>
+            <li><a href="#">NOVELS</a></li>
+            <li><a href="#">BUSINESS</a></li>
+            
+        </ul>
+ 	</nav>
+        
+</header>
+
+<heading>
+<h1 class="float_l"><img src="images/dot.png" class="dot"/><span style="background-color:#fcc60d;padding:5px 5px;">THE BOOK SPOT</span><img src="images/dot.png" class="dot"/></h1>
+</heading>
+
+
+ <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td align="center" style="" bgcolor="">
+                <table id="orderSummary" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;margin-top: -80px;">
+                   
+                    
+                </table>
+            </td>
+        </tr>
+    </table>
+    <div style="text-align: center;">
+<button style="background-color: #fcc508;color: #e35e1d;border-radius: 5px;border-color: #fcc508;padding: 5px;" onclick="goToListOrder(1)">List Previous Orders</button>
+	</div>
+
+<footer class="float_l">
+	<hr>
+    <div class="footer_fix float_l">
+    	<div class="cols1 float_l">
+    	<h5>Little about us</h5>
+    	<p><b>Sed posuere </b>consectetur  est at. 
+		Nulla vitae elit libero, a pharetra. 
+		Lorem ipsum dolor sit amet, conse
+		ctetuer adipiscing elit.</p>
+        <h5>Socialize with us</h5>
+        <div class="socialize float_l"><img src="static/images/footer_icon1.png" /></div>
+        <div class="socialize float_l"><img src="static/images/footer_icon2.png" /></div>
+        <div class="socialize float_l"><img src="static/images/footer_icon3.png" /></div>
+        <div class="socialize float_l"><img src="static/images/footer_icon4.png" /></div>
+        <div class="socialize float_l"><img src="static/images/footer_icon5.png" /></div>
+		</div>
+        
+        
+        
+        <div class="cols1 float_l">
+    	<h5>Our Archives</h5>
+    	<li><a href="#">March 2012</a></li>
+        <li class="dotline">.....................................................</li>
+        <li><a href="#">February 2012</a></li>
+        <li class="dotline">.....................................................</li>
+        <li><a href="#">Januuary 2012</a></li>
+        <li class="dotline">.....................................................</li>
+        <li><a href="#">December 2011</a></li>
+    	</div>
+        
+        <div class="cols2 float_l">
+    	<h5 style="margin-bottom:12px;">Popular Posts</h5>
+    	<div class="postimg float_l"><img src="static/images/footer_img1.png" /><img src="static/images/footer_img2.png" /></div>
+       	
+        <div class="comment float_l">
+        <h6 style="margin-left:7px; color:#FFF"><a href="#">Great Album</a></h6>
+        <img src="static/images/comment_icon.png" /><small style="color:#FFF;position:absolute;margin-top:-23px;margin-left:25px;"><a href="#">12 COMMETNS</a></small></div>	
+        <div class="comment float_l">
+        <h6 style="margin-left:7px; color:#FFF"><a href="#">Great Album</a></h6>
+        <img src="static/images/comment_icon.png" /><small style="color:#FFF;position:absolute;margin-top:-23px;margin-left:25px;"><a href="#">12 COMMETNS</a></small></div>
+    	</div>
+        
+        
+        <div class="cols3 float_l">
+        <h5>Search Our Site</h5>
+        <input type="search" placeholder="Enter Search ..." class="searchbox"/>
+        <h5>Tag Cloud</h5>
+        <ol class="float_l"><A href="#">Audio CD</A></ol><ol class="float_l"><A href="#">Video</A></ol>
+        <ol class="float_l"><A href="#">Playlist</ol><ol class="float_l"><A href="#">Avantgarde</A></ol>
+        <ol class="float_l"><A href="#">Metancholic</A></ol>
+        </div>
+        
+    </div>
+    
+    
+    
+   
+     
+       <div class="copyright float_l">
+       		<div class="footer_left float_l">
+            <li class="float_l"><a href="#">Exams</a></li>
+            <li class="float_l"><a href="#">Academics</a></li>
+            <li class="float_l"><a href="#">Novels</a></li>
+            <li class="float_l"><a href="#">Business</a></li>
+            </div>
+            <div class="footer_right float_l">THE BOOK SPOT @2021 by HCL | All Right Reserved</div>
+       </div>
+     
+   
+</footer>
+
+
+</div>
+</body>
+</html>

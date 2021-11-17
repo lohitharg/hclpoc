@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymleaf.org">
+<head>
+<meta charset="utf-8">
+<title>THE BOOK SPOT</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/css/portfolio.css" />
+<link rel="stylesheet" type="text/css"  href="/css/topfooter.css"  />
+<link rel="stylesheet" type="text/css"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="/css/index.css" />
+
+<link rel="stylesheet" type="text/css" href="/fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+<script src="/js/jquery-3.2.1.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/modernizr-custom.js"></script>
+<script src="/js/custom/cart.js"></script>
+</head>
+<body>
+<div id="wrapper">
+
+<header class="float_l top">
+	
+    <div class="social float_l">
+    	<a href="#"><img src="images/facebook_icon.png" /></a>
+    	<a href="#"><img src="images/dribble_icon.png" /></a>
+    	<a href="#"><img src="images/twitter_icon.png" /></a>
+    	<a href="#"><img src="images/mail_icon.png" /></a>
+    	<a href="#"><img src="images/vimeo_icon.png" /></a>
+     </div>
+        
+    <div class="login_register float_l">
+        <a href="#">Login/Register </a>
+    </div>	
+    <div class="shoppingcart float_l">
+             <img src="images/cart_logo.png" />
+             <a href="/cart">Cart</a></div>
+            
+     
+ 	<nav class="float_l">
+           <div class="logo">
+           <a href="#"><img src="images/logo.png" class="float_l" style="margin-top: 60px;"/></a></div>
+        
+        <ul class="menu float_l">
+        	<li><a href="#">EXAMS</a></li>
+            <li><a href="#">ACADEMICS</a></li>
+            <li><a href="#">NOVELS</a></li>
+            <li><a href="#">BUSINESS</a></li>
+            
+        </ul>
+ 	</nav>
+        
+</header>
+
+
+
+<heading>
+<h1 class="float_l" style="padding-top: 30px;"><img src="images/dot.png" class="dot"/>WELCOME TO <span style="background-color:#fcc60d;padding:5px 5px;">THE BOOK SPOT</span><img src="images/dot.png" class="dot"/></h1>
+</heading>
+
+<section class="content float_l">
+	<div class="music_box float_l">
+     	<img src="images/cd_icon.png" class="float_l" />
+        <h2 class="float_l" style="margin-top: -33px;margin-left: 32px;">CHECK OUR CD COLLECTION</h2>
+        <P class="desc float_l" style="margin-top:0px">Anne's House of Dreams(Classic Book on CD Collection)Audio CD'</P>
+    </div>
+    
+    <div class="music_box float_l" style="background-color:#fcc508;margin:0px 30px;color:#cc3333">
+    <img src="images/audio_icon.png" class="float_l" />
+        <h2 class="float_l"style="margin-top: -33px;margin-left: 32px;">LISTEN BEFORE PURCHASE</h2>
+        <P class="desc float_l"style="margin-top:0px">The dynamics of militiary mediation among India,Burma & China</P>
+    </div>
+    
+    
+	<div class="music_box float_l">
+    <img src="images/upcoming_event_icon.png" class="float_l" />
+        <h2 class="float_l">UPCOMING EVENT</h2>
+        <P class="desc float_l">One of the Good Ones' by Maika Moulite and Maritza Moulite.</P>
+    </div>
+    
+</section>
+
+
+
+
+
+<!--=========== Main Content Start===============-->
+
+<section class="maincontent float_l">
+        <h3>ALL BOOKS
+        <div class="arrow">
+        <img src="images/arrow_l.png" class="arrow_l"/>&nbsp;<img src="images/arrow_r.png" class="arrow_r"/>
+        </div></h3>
+       	  <div class="box1 float_l">
+            	<div class="arrival_img"><div class="arrival_imgcard"><a href="Mens-Product-Detail-Page.html"><img src="images/img1.png"/></a></div></div>
+              <a href="#"style="color: black;font-size: large;">Harry Potter & The Prisoner of Azkaban </a> &nbsp;&nbsp;<i><small><a href="#">by Seller1</a></small></i><br/>
+              <span class="rating"><img src="images/star_red.png" /><img src="images/star_red.png" /><img src="images/star_red.png" /><img src="images/star_red.png" /><img src="images/star_black.png" /></span>
+            <p> Rs. 20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="cartbtn"onclick="addToCart(1,1,1,20,'Harry Potter')"data-toggle="modal" data-target="#myModal">ADD TO CART</button></p>
+
+            </div>
+            
+          <div class="box1 float_l">
+            	<div class="arrival_img"><div class="arrival_imgcard"><a href="Mens-Product-Detail-Page.html"><img src="images/img2.png" width="226" height="228"/></a></div></div>
+             <a href="#" style="color: black;font-size: large;">Data Communication & Networking</a> &nbsp;&nbsp;<i><small><a href="#">by Artist</a></small></i><br/>
+              <span class="rating"><img src="images/star_red.png" /><img src="images/star_red.png" /><img src="images/star_red.png" /><img src="images/star_red.png" /><img src="images/star_black.png" /></span>
+				<p>Rs. 17.59&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Mens-Product-Detail-Page.html">ADD TO CART</a></p>
+            </div>
+            
+          <div class="box1 float_l">
+            	<div class="arrival_img"><div class="arrival_imgcard"><a href="Mens-Product-Detail-Page.html"><img src="images/img3.png" width="226" height="228"/></a></div></div>
+              <a href="#" style="color: black;font-size: large;">1st Puc Hindi</a> &nbsp;&nbsp;<i><small><a href="#">by Artist</a></small></i><br/>
+              <span class="rating"><img src="images/star_red.png" /><img src="images/star_red.png" /><img src="images/star_red.png" /><img src="images/star_red.png" /><img src="images/star_black.png" /></span>
+				<p>Rs. 17.59&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Mens-Product-Detail-Page.html">ADD TO CART</a></p>
+            </div>
+            
+         <div class="box4 float_l">
+            	<div class="arrival_img"><div class="arrival_imgcard"><a href="Mens-Product-Detail-Page.html"><img src="images/img4.png"/></a></div></div>
+              <a href="#" style="color: black;font-size: large;">Perfect Us</a> &nbsp;&nbsp;<i><small><a href="#">by Artist</a></small></i><br/>
+              <span class="rating"><img src="images/star_red.png" /><img src="images/star_red.png" /><img src="images/star_red.png" /><img src="images/star_red.png" /><img src="images/star_black.png" /></span>
+				<p>Rs. 17.59&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Mens-Product-Detail-Page.html">ADD TO CART</a></p>
+            </div>
+</section>
+        
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">SUCCESS</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+       Product added to cart successfully
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+      <a href="/cart">Go To Cart</a>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<footer class="float_l">
+	<hr>
+    <div class="footer_fix float_l">
+    	<div class="cols1 float_l">
+    	<h5>Little about us</h5>
+    	<p><b>Sed posuere </b>consectetur  est at. 
+		Nulla vitae elit libero, a pharetra. 
+		Lorem ipsum dolor sit amet, conse
+		ctetuer adipiscing elit.</p>
+        <h5>Socialize with us</h5>
+        <div class="socialize float_l"><img src="static/images/footer_icon1.png" /></div>
+        <div class="socialize float_l"><img src="static/images/footer_icon2.png" /></div>
+        <div class="socialize float_l"><img src="static/images/footer_icon3.png" /></div>
+        <div class="socialize float_l"><img src="static/images/footer_icon4.png" /></div>
+        <div class="socialize float_l"><img src="static/images/footer_icon5.png" /></div>
+		</div>
+        
+        
+        
+        <div class="cols1 float_l">
+    	<h5>Our Archives</h5>
+    	<li><a href="#">March 2012</a></li>
+        <li class="dotline">.....................................................</li>
+        <li><a href="#">February 2012</a></li>
+        <li class="dotline">.....................................................</li>
+        <li><a href="#">Januuary 2012</a></li>
+        <li class="dotline">.....................................................</li>
+        <li><a href="#">December 2011</a></li>
+    	</div>
+        
+        <div class="cols2 float_l">
+    	<h5 style="margin-bottom:12px;">Popular Posts</h5>
+    	<div class="postimg float_l"><img src="static/images/footer_img1.png" /><img src="static/images/footer_img2.png" /></div>
+       	
+        <div class="comment float_l">
+        <h6 style="margin-left:7px; color:#FFF"><a href="#">Great Album</a></h6>
+        <img src="static/images/comment_icon.png" /><small style="color:#FFF;position:absolute;margin-top:-23px;margin-left:25px;"><a href="#">12 COMMETNS</a></small></div>	
+        <div class="comment float_l">
+        <h6 style="margin-left:7px; color:#FFF"><a href="#">Great Album</a></h6>
+        <img src="static/images/comment_icon.png" /><small style="color:#FFF;position:absolute;margin-top:-23px;margin-left:25px;"><a href="#">12 COMMETNS</a></small></div>
+    	</div>
+        
+        
+        <div class="cols3 float_l">
+        <h5>Search Our Site</h5>
+        <input type="search" placeholder="Enter Search ..." class="searchbox"/>
+        <h5>Tag Cloud</h5>
+        <ol class="float_l"><A href="#">Audio CD</A></ol><ol class="float_l"><A href="#">Video</A></ol>
+        <ol class="float_l"><A href="#">Playlist</ol><ol class="float_l"><A href="#">Avantgarde</A></ol>
+        <ol class="float_l"><A href="#">Metancholic</A></ol>
+        </div>
+        
+    </div>
+    
+    
+    
+   
+     
+       <div class="copyright float_l">
+       		<div class="footer_left float_l">
+            <li class="float_l"><a href="#">Exams</a></li>
+            <li class="float_l"><a href="#">Academics</a></li>
+            <li class="float_l"><a href="#">Novels</a></li>
+            <li class="float_l"><a href="#">Business</a></li>
+            </div>
+            <div class="footer_right float_l">THE BOOK SPOT @2021 by HCL | All Right Reserved</div>
+       </div>
+     
+   
+</footer>
+
+
+</div>
+
+</body>
+</html>
